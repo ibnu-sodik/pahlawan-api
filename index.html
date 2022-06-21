@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en"><!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="API Quran Bahasa Indonesia">
+	<meta name="author" content="Ibnu Sodik">
+	<title>Pahlawan Indonesia</title>
+	
+	<link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+	<link href="./bootstrap.min.css" rel="stylesheet">
+	<link href="./style.css" rel="stylesheet">
+</head>
+<body>
+
+	<div class="container py-3">
+		<header>
+			<div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
+				<a href="/" class="d-flex align-items-center text-dark text-decoration-none">
+
+					<span class="fs-4">Pahlawan Indonesia</span>
+				</a>
+			</div>
+		</header>
+
+		<main>
+			<div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+				<h1 class="display-4 fw-normal">Pahlawan Indonesia</h1>
+				<p class="fs-5 text-muted">Cari Tahu siapa saja Pahlawan Indonesia kini lebih mudah dengan cara online.</p>
+			</div>
+			<div class="row mb-3">
+				<div class="col-md-6 mb-3 text-center">
+					<select class="form-control select2" id="daftar-hero">
+						<option value="">--- Pilih Pahlawan ---</option>
+					</select>
+					<div class="mb-3"></div>
+					<button class="btn btn-primary btn-block col-md-6" type="button" id="btn-lihat">Lihat</button>
+				</div>
+				<div class="col">
+					<div class="detail-hero"></div>
+				</div>
+			</div>
+		</main>
+
+		<footer></footer>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+	<script src="./script.js"></script>
+</body>
+</html>
